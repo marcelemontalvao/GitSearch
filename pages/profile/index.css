@@ -1,0 +1,118 @@
+body {
+    background-color: var(--color-grey-2);
+}
+
+.container {
+    max-width: 784px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding: 61px 0;
+    margin: 0 auto;
+    color: var(--color-grey-7);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil {
+    display: flex;
+}
+
+.perfil img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 2px solid var(--color-brand-2);
+    margin-right: 20px;
+}
+
+.perfil-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.perfil-infos span:nth-child(1) {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--color-grey-7);
+}
+
+.perfil-infos span:nth-child(2) {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 400px;
+}
+
+.btns-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.btns-header button {
+    background-color: rgba(255, 255, 255, 0.08);
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 25px;
+    color: var(--color-grey-7);
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+.card {
+    width: 381px;
+    height: 243px;
+    background-color: var(--color-grey-1);
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.card-infos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 41px 27px;
+    gap: 21px;
+}
+
+.name-repository {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 21px;
+}
+
+.btns-repository button{
+    color: var(--color-grey-7);
+    border: none;
+    border: 1px solid var(--color-grey-7);
+    background-color: var(--color-grey-1);
+    border-radius: 4px; 
+    padding: 4px 8px;
+    margin-right: 10px;
+}
+
